@@ -22,6 +22,7 @@ entity Items : cuid {
     interaction : Association to Headers;
     text        : localized Text;
     date        : DateTime;
+
     @Semantics.amount.currencyCode: 'currency'
     price       : Price;
     currency    : Currency;
